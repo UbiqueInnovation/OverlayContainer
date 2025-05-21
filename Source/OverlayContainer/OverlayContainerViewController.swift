@@ -230,7 +230,7 @@ open class OverlayContainerViewController: UIViewController {
             overlayContainerViewStyleConstraint = overlayContainerView.heightAnchor.constraint(
                 equalToConstant: 0
             )
-            overlayContainerViewStyleConstraint?.priority = .defaultHigh
+            overlayContainerViewStyleConstraint?.priority = .init(909)
             let bottomConstraint = overlayContainerView.bottomAnchor.constraint(
                 greaterThanOrEqualTo: overlayTranslationView.bottomAnchor
             )
